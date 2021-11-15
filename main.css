@@ -1,3 +1,5 @@
+/*header*/
+
 header {
   background: #b76262;
   width: 80%;
@@ -30,4 +32,45 @@ nav .navcntnr a {
 
 nav a:hover {
   color: #b96262;
+}
+
+/* content */
+
+/*footer*/
+
+footer {
+  width: 80%;
+  margin: auto;
+  background: #b76262;
+  height: 100px;
+}
+
+footer section {
+}
+
+.ftrlnks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  color: white;
+}
+
+.ftrlnks p {
+  padding-left: 8px;
+  color: white;
+}
+
+.navcntnr {
+  color: white;
+}
+
+.navcntnr a {
+  padding: 0px 20px 0px 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.ftrlnks .navcntnr a:hover {
+  color: #b76262;
 }
