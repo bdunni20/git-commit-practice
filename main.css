@@ -1,0 +1,33 @@
+header {
+  background: #b76262;
+  width: 80%;
+  margin: auto;
+}
+
+header #logo {
+  position: relative;
+  left: 50%;
+  margin-left: -75px;
+  bottom: -8px;
+
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background: black;
+}
+
+nav .navcntnr {
+  padding: 6px 0px 6px 0px ;
+}
+
+nav .navcntnr a {
+  color: white;
+  padding: 0px 20px 0px 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #b96262;
+}
