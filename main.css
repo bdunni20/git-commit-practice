@@ -1,3 +1,7 @@
+body {
+  font-family: "Segoe UI";
+}
+
 /*header*/
 
 header {
@@ -36,6 +40,78 @@ nav a:hover {
 
 /* content */
 
+.content {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 80%;
+  margin: auto;
+}
+
+.atcls {
+  display: grid;
+  grid-gap:;
+  border-right: 1px solid black
+}
+
+.atcl {
+  display: grid;
+  grid-template-columns:auto auto;
+  grid-column-gap: 80px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  margin-left: 30px;
+}
+
+figure {
+  margin: auto;
+}
+
+.atclnfo p {
+  width: 70%;
+}
+
+.atclnfo h1 {
+  text-decoration: underline;
+}
+
+/*sidebar*/
+
+.sidebar {
+  display: grid;
+}
+
+
+.rltdlnks {
+  display: flex;
+  flex-direction: column;
+  align-items:;
+  margin-top: 50px;
+  border-bottom: 1px solid black;
+}
+
+.rltdlnks h2 {
+  align-self: flex start;
+  padding-left: 50px;
+  margin-right: 8px;
+}
+
+.rltdlnks a {
+  padding: 25px;
+  padding-left: 75px;
+  color: black;
+}
+
+.rltdlnks a:hover {
+  color: #b96262;
+}
+
+.contctsdbr  {
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+
+}
+
 /*footer*/
 
 footer {
@@ -43,6 +119,7 @@ footer {
   margin: auto;
   background: #b76262;
   height: 100px;
+  margin-top: 50px;
 }
 
 footer section {
@@ -57,8 +134,8 @@ footer section {
 }
 
 .ftrlnks p {
-  padding-left: 8px;
   color: white;
+  width: 50%;
 }
 
 .navcntnr {
