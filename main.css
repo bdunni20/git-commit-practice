@@ -50,7 +50,7 @@ nav a:hover {
 .atcls {
   display: grid;
   grid-gap:;
-  border-right: 1px solid black
+  border-right: 1px solid black;
 }
 
 .atcl {
@@ -60,6 +60,25 @@ nav a:hover {
   padding-bottom: 60px;
   padding-top: 60px;
   margin-left: 30px;
+}
+
+.atclnfo button {
+  border: none;
+
+}
+
+.atclnfo button:hover{
+  color:blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hiddenText {
+  visibility: hidden;
+}
+
+hr {
+  width: 75%;
 }
 
 figure {
@@ -80,13 +99,16 @@ figure {
   display: grid;
 }
 
+.sidebar hr {
+  align-self: center;
+  width: 75%;
 
+}
 .rltdlnks {
   display: flex;
   flex-direction: column;
   align-items:;
   margin-top: 50px;
-  border-bottom: 1px solid black;
 }
 
 .rltdlnks h2 {
